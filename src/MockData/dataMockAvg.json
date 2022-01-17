@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "profession": "Reaper",
+        "dps": 16872
+    },
+    {
+        "id": 2,
+        "profession": "Soulbeast",
+        "dps": 15556
+    },
+    {
+        "id": 3,
+        "profession": "Power Chronomancer",
+        "dps": 12093
+    },
+    {
+        "id": 4,
+        "profession": "Condition Chronomancer",
+        "dps": 10002
+    },
+    {
+        "id": 5,
+        "profession": "Power Berzerker",
+        "dps": 9822
+    }
+]

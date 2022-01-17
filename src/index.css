@@ -1,0 +1,37 @@
+.base { 
+  background-color: azure;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  
+}
+
+.BossQuickView {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.BQVHeader {
+  background-color: brown;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.BQVTablesDiv {
+  background-color: blue;
+  display: flex;
+  align-self: center;
+  align-content: space-around;
+}
+
+.tableHeader {
+  align-content: center;
+}

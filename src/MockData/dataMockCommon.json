@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "profession": "Reaper",
+        "appears": "50%"
+    },
+    {
+        "id": 2,
+        "profession": "Soulbeast",
+        "appears": "28%"
+    },
+    {
+        "id": 3,
+        "profession": "Power Chronomancer",
+        "appears": "22%"
+    },
+    {
+        "id": 4,
+        "profession": "Condition Chronomancer",
+        "appears": "2%"
+    },
+    {
+        "id": 5,
+        "profession": "Power Berzerker",
+        "appears": "1%"
+    }
+]

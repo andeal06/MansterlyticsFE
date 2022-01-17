@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "profession": "Reaper",
+        "dps": "45000",
+        "date": "12/15/2020"
+    },
+    {
+        "id": 2,
+        "profession": "Soulbeast",
+        "dps": "17000",
+        "date": "12/15/2020"
+    },
+    {
+        "id": 3,
+        "profession": "Power Chronomancer",
+        "dps": "15000",
+        "date": "12/15/2020"
+    },
+    {
+        "id": 4,
+        "profession": "Condition Chronomancer",
+        "dps": "12500",
+        "date": "12/15/2020"
+    },
+    {
+        "id": 5,
+        "profession": "Power Berzerker",
+        "dps": "12000",
+        "date": "12/15/2020"
+    }
+]
