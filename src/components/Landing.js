@@ -17,7 +17,8 @@ const Landing = () => {
                     <li>upload page</li>
                     <li>landing page wing cards</li>
                     <li>disclaimer page</li>
-                    <li></li>
+                    <li>Profession thumbnails</li>
+                    <li>muse about advanced view layouts</li>
                 </ul>
                 
             </div>
