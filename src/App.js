@@ -38,7 +38,7 @@ function App() {
 
   const clearAll = () => {
     funcList.map((func) => {
-      func(false)
+      func(false);
     }) 
   }
 

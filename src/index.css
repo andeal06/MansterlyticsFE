@@ -1,37 +1,78 @@
-.base { 
-  background-color: azure;
+body {
+  background-color: #093426;
   font-family: Arial, Helvetica, sans-serif
 }
-
 
 .header-flex {
   display: flex;
   flex-direction: row;
-  background-color: aliceblue;
   
+  background-color: #093426;
+  color: #79BEA8;
+}
+
+.ToDoList {
+  background-color: #E7F3EF;
 }
 
 .BossQuickView {
+  margin: 20px;
+
   display: flex;
   flex-direction: column;
-
 }
 
 .BQVHeader {
-  background-color: brown;
+  background-color: #448D76;
+  
+  width: 75%;
+  max-width: 1500px;
+  padding: 20px;
+  
+  border-radius: 15px 15px 0px 0px;
+
   align-self: center;
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  justify-content: space-between;
 }
 
 .BQVTablesDiv {
-  background-color: blue;
+  background-color: #E7F3EF;
+  
+  width: 75%;
+  max-width: 1500px;
+  padding: 0px 20px 20px 20px;
+
+  border-radius: 0px 0px 15px 15px;
+
   display: flex;
   align-self: center;
-  align-content: space-around;
+  justify-content: space-around;
 }
 
 .tableHeader {
-  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+.commonTable {
+  margin: 15px;
+}
+
+.avgTable {
+  margin: 15px;
+}
+
+.bestTable {
+  margin: 15px;
+}
+
+.profTableData {
+  text-align: left;
+}
+
+table, th, td {
+  padding: 5px 10px 5px 10px;
+  text-align: center;
 }

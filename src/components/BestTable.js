@@ -8,13 +8,11 @@ const BestTable = ({bossName}) => {
     return (
         <div>
             <h3 className="tableHeader"> Record DPS </h3>
-            <h6> Boss name test: {bossName} </h6>
-            <table>
+            <table className="bestTable">
                 <tbody>
                     {bestData.map((data) => (
                         <tr>
-                            <td>{data.id}</td>
-                            <td>{data.profession}</td>
+                            <td className="profTableData">{data.profession}</td>
                             <td>{data.dps}</td>
                             <td>{data.date}</td>
                         </tr>

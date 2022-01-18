@@ -1,5 +1,4 @@
 import React from 'react'
-import BossQuickView from './BossQuickView'
 
 const Landing = () => {
     return (
@@ -11,13 +10,14 @@ const Landing = () => {
                 <ul>
                     <li>Landing Content</li>
                     <li>Landing styling</li>
-                    <li>Wing stylings</li>
+                    <li>Boss Thumbnails</li>
                     <li>Header Syling</li>
                     <li>api connections</li>
                     <li>upload functionality</li>
                     <li>upload page</li>
                     <li>landing page wing cards</li>
                     <li>disclaimer page</li>
+                    <li></li>
                 </ul>
                 
             </div>

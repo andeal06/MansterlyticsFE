@@ -10,13 +10,11 @@ const AvgTable = ({bossName}) => {
     return (
         <div>
             <h3 className="tableHeader"> Highest Average DPS </h3>
-            <h6> Boss Pass Test: {bossName} </h6>
-            <table>
+            <table className="avgTable">
                 <tbody>
                     {avgData.map((data) => (
                         <tr>
-                            <td>{data.id}</td>
-                            <td>{data.profession}</td>
+                            <td className="profTableData">{data.profession}</td>
                             <td>{data.dps}</td>
                         </tr>
                     ))} 

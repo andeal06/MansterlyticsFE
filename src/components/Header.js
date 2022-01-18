@@ -2,7 +2,7 @@ import Button from "./Button.js"
 
 const Header = ({functions}) => {
     return (
-        <header>
+        <header className="header-flex">
             <div>
                 <h1 onClick={functions.landing}> Mansterlytics </h1>
                 <Button text="Spirit Vale" onClick={functions.wing1}/>

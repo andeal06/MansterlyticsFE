@@ -29,13 +29,11 @@ const CommonTable = ({ bossName }) => {
     return (
         <div>
             <h3 className="tableHeader"> Most Common Builds </h3> 
-            <h6> Boss Name pass test: {bossName} </h6>
-            <table>
+            <table className="commonTable">
                 <tbody>
                     {cmnData.map((data) => (
                         <tr>
-                            <td>{data.id}</td>
-                            <td>{data.profession}</td>
+                            <td className="profTableData">{data.profession}</td>
                             <td>{data.appears}</td>
                         </tr>
                     ))}
